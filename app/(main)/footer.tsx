@@ -10,14 +10,14 @@ export default function Footer() {
         <p className="mt-3 flex gap-1 text-[13px] font-light tracking-tight text-neutral-600/50 dark:text-neutral-300/50">
           {t("p_146-598_Findthecodeon")}{" "}
           <a
-            href="https://github.com/hamster1963/nezha-dash"
+            href="https://github.com/zdwtest/nezha-dash"
             target="_blank"
             className="cursor-pointer font-normal underline decoration-yellow-500 decoration-2 underline-offset-2 dark:decoration-yellow-500/50"
           >
             {t("a_303-585_GitHub")}
           </a>
           <a
-            href={`https://github.com/hamster1963/nezha-dash/releases/tag/v${version}`}
+            href={`https://github.com/zdwtest/nezha-dash/releases/tag/v${version}`}
             target="_blank"
             className="cursor-pointer font-normal underline decoration-yellow-500 decoration-2 underline-offset-2 dark:decoration-yellow-500/50"
           >
